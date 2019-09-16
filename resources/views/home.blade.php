@@ -37,16 +37,16 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#about">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a class="nav-link js-scroll-trigger" href="#services">Hoja de vida</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
           </li>
         </ul>
       </div>
@@ -86,35 +86,35 @@
   <!-- Services Section -->
   <section class="page-section" id="services">
     <div class="container">
-      <h2 class="text-center mt-0">At Your Service</h2>
+      <h2 class="text-center mt-0">¿Que sé hacer?</h2>
       <hr class="divider my-4">
       <div class="row">
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Sturdy Themes</h3>
-            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+            <h3 class="h4 mb-2">Páginas web</h3>
+            <p class="text-muted mb-0">De a conocer su negocio de forma rápida y sencilla</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Up to Date</h3>
-            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+            <h3 class="h4 mb-2">Aplicaciones móviles</h3>
+            <p class="text-muted mb-0">Esté mas cerca de las personas a través de su dispositivo móvil</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Ready to Publish</h3>
-            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+            <h3 class="h4 mb-2">Software en la nube</h3>
+            <p class="text-muted mb-0">Gestione su empresa u organice su información de forma eficiente</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Made with Love</h3>
-            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+            <h3 class="h4 mb-2">Sistemas Linux</h3>
+            <p class="text-muted mb-0">Asesorías para implementación de servidores y software libre</p>
           </div>
         </div>
       </div>
@@ -127,7 +127,7 @@
       <div class="row no-gutters">
         <div class="col-lg-4 col-sm-6 text-center">
           <a class="portfolio-box" href="{{ asset('img/portfolio/fullsize/1.jpg') }}">
-            <img class="img-fluid" src="{{ asset('img/construprecios.png') }}" alt="" width="250" height="250">
+            <img class="img-fluid" src="{{ asset('img/portfolio/thumbnails/portafolio_construprecios.jpg') }}" alt="" width="250" height="250">
             <div class="portfolio-box-caption">
               {{-- <div class="project-category text-white-50">
                 Category
@@ -140,7 +140,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 text-center">
           <a class="portfolio-box" href="{{ asset('public/img/portfolio/fullsize/2.jpg') }}">
-            <img class="img-fluid" src="{{ asset('img/claseaparte.png') }}" alt="" width="250px" height="250px">
+            <img class="img-fluid" src="{{ asset('img/portfolio/thumbnails/portafolio_clase_aparte.jpg') }}" alt="" width="250px" height="250px">
             <div class="portfolio-box-caption">
               {{-- <div class="project-category text-white-50">
                 Category
@@ -151,15 +151,15 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6 text-center">
           <a class="portfolio-box" href="{{ asset('img/portfolio/fullsize/3.jpg') }}">
-            <img class="img-fluid" src="{{ asset('img/portfolio/thumbnails/3.jpg') }}" alt="">
+            <img class="img-fluid" src="{{ asset('img/portfolio/thumbnails/portafolio_medisoft.jpg') }}" alt="">
             <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
+              {{-- <div class="project-category text-white-50">
                 Category
-              </div>
+              </div> --}}
               <div class="project-name">
-                Project Name
+                Medisoft
               </div>
             </div>
           </a>
@@ -177,15 +177,15 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6 text-center">
           <a class="portfolio-box" href="{{ asset('img/portfolio/fullsize/5.jpg') }}">
-            <img class="img-fluid" src="{{ asset('img/portfolio/thumbnails/5.jpg') }}" alt="">
+            <img class="img-fluid" src="{{ asset('img/portfolio/thumbnails/portafolio_tiendaya.jpg') }}" alt="">
             <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
+              {{-- <div class="project-category text-white-50">
                 Category
-              </div>
+              </div> --}}
               <div class="project-name">
-                Project Name
+                TiendaYA
               </div>
             </div>
           </a>
@@ -208,32 +208,32 @@
   </section>
 
   <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white">
+  {{-- <section class="page-section bg-dark text-white">
     <div class="container text-center">
       <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
       <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
     </div>
-  </section>
+  </section> --}}
 
   <!-- Contact Section -->
   <section class="page-section" id="contact">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Let's Get In Touch!</h2>
+          <h2 class="mt-0">¿Necesita de mis servicios?</h2>
           <hr class="divider my-4">
-          <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+          <p class="text-muted mb-5">Es tan sencillo como hacer una llamada en enviar un correo electrónico</p>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
           <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (202) 555-0149</div>
+          <div>+57 3182204190</div>
         </div>
         <div class="col-lg-4 mr-auto text-center">
           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
           <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+          <a class="d-block" href="mailto:rojaselkin1@gmail.com">rojaselkin1@gmail.com</a>
         </div>
       </div>
     </div>
