@@ -31,7 +31,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            {{-- <div class="col-lg-4 col-sm-6">
                 <a class="portfolio-box" href="{{ asset('img/portfolio/fullsize/4.jpg') }}">
                     <img class="img-fluid" src="{{ asset('img/portfolio/thumbnails/4.jpg') }}" alt="">
                     <div class="portfolio-box-caption">
@@ -40,8 +40,8 @@
                         </div>
                     </div>
                 </a>
-            </div>
-            <div class="col-lg-4 col-sm-6 text-center">
+            </div> --}}
+            <div class="col-lg-4 col-sm-6 offset-lg-4 offset-sm-6 text-center">
                 <a class="portfolio-box" href="{{ asset('img/portfolio/fullsize/5.jpg') }}">
                     <img class="img-fluid" src="{{ asset('img/portfolio/thumbnails/portafolio_tiendaya.jpg') }}" alt="">
                     <div class="portfolio-box-caption">
@@ -51,7 +51,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            {{-- <div class="col-lg-4 col-sm-6">
                 <a class="portfolio-box" href="{{ asset('img/portfolio/fullsize/6.jpg') }}">
                     <img class="img-fluid" src="{{ asset('img/portfolio/thumbnails/6.jpg') }}" alt="">
                     <div class="portfolio-box-caption p-3">
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                 </a>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>

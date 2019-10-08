@@ -13,7 +13,7 @@
                   <a class="nav-link js-scroll-trigger" href="#services">Hoja de vida</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                  <a class="nav-link js-scroll-trigger" href="#portfolio">Portafolio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
