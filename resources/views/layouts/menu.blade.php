@@ -23,11 +23,17 @@
                   <a class="nav-link js-scroll-trigger" href="#contact">{{ Auth::user()->name }}</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#contact">Salir</a>
+                  <a class="nav-link js-scroll-trigger" href="{{ route('logout') }}"
+                    onclick="event.preventDefault();
+                    document.getElementById('logout-form').submit();"
+                  >Salir</a>
+                  <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                  </form>
                 </li>
                 @else
                 <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#contact">Login/Registro</a>
+                  <a class="nav-link js-scroll-trigger" href="{{ route('login') }}">Login/Registro</a>
                 </li>
                 @endif
             </ul>
